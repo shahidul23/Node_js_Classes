@@ -1,0 +1,22 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "this is npm testing projec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm node.js nodeon"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Shahidul Islam",
+  "license": "ISC",
+  "dependencies": {
+    "name-to-imdb": "^3.0.4",
+    "random-fruits-name": "^1.9.6"
+  }
+}
