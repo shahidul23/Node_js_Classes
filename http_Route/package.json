@@ -1,0 +1,19 @@
+{
+  "name": "http_route",
+  "version": "1.0.0",
+  "description": "This is the hppt route system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "http",
+    "route"
+  ],
+  "author": "Shahidul islam",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
