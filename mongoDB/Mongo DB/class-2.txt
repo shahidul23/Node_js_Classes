@@ -1,0 +1,23 @@
+Create databses 
+-->use usersDB
+
+Create collection
+-->db.createCollection(`users`)
+
+Show collection
+-->show collections
+
+Insert one Record
+-->db.users.insertOne({ name:`shahidul islam`,age:24, languages: [`Bangla`,`english`,`hindi`]})
+
+Insert many Record
+-->db.users.insertMany([{name:`Rahol`,age:23,languages:[`bangla`,`english`]},{name:`shohan`,age:27,language:[`bangla`,`english`]})
+
+Show all Record (db.collection name.find())
+-->db.users.find().pretty()
+
+show specific data
+-->db.users.find({name: "shohan"})
+
+Show data limite(db.collection-name.find().limit(limite-value))
+-->db.users.find({name: "shohan"}).limit(2)

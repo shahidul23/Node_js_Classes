@@ -1,0 +1,28 @@
+check databases version 
+-->mongod --version
+
+check shell
+-->mongosh -version
+
+Enter mongo shell
+-->mongosh
+=================================================
+databases create and inside databases
+-->use databases-name 
+
+Show databases
+-->show dbs
+
+Enter in side into database
+-->use databases-name ex:use studentDB
+
+Create Collection
+-->db.createCollection(`Enter-Collectionname`)
+
+show collection
+-->show collections
+
+drop databases
+-->db.dropDatabase()
+
+                                         THE END
